@@ -6,10 +6,10 @@
     </head>
     <body>
         <header>
-        <h1>Ik ben House.html</h1>
+         <h1>Ik ben House.html</h1>
         </header>
         <nav>
-        <a href='index.html'> Terug naar Index</a>
+         <a href='index.html'> Terug naar Index</a>
         </nav>
     </body> 
 </html>
