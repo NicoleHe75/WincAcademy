@@ -4,12 +4,14 @@
         <!-- hier zet je de code in de head tags -->
         <title> Dit is mijn eerste HTML Pagina</title>
     </head>
-    <body>
+       <body>
         <header>
-         <h1>Ik ben House.html</h1>
+            <h1>Ik ben House.html</h1>
         </header>
-        <nav>
-         <a href='index.html'> Terug naar Index</a>
-        </nav>
+        <main> 
+            <nav>
+                <a href='index.html'> Terug naar Index</a>
+            </nav>
+        </main>
     </body> 
 </html>
