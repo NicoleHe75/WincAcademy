@@ -1,0 +1,43 @@
+header { 
+    color: red;
+}
+
+ul { 
+    color: darkblue;
+}
+
+.soft-border {
+    border: 5px solid lightgreen;
+    margin: 20px;
+    padding: 10px;
+}
+
+#green-background {
+    background-color: rgb(231, 140, 178);
+}
+
+.center-title{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.navigation-links li{
+    display: inline;
+    margin: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(38, 236, 127); 
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+@media (min-width: 1024px) {
+    #green-background {
+        background-color: lightgreen;
+        color: blue;
+        font-size: 20px;
+        line-height: 30px;
+}
