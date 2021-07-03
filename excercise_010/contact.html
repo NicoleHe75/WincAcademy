@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <title>Dit is mijn eerste HTML Pagina</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+            <label>Naam: <input type="text" name="name" /></label>
+        </p>
+        <p>
+            <label>Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+            <label>Tel: <input type="telephone" name="telephone" /></label>
+        </p>
+        <p>
+            <label>Leeftijd: <input type="age" name="age" /></label>
+        </p>
+        <p>
+            <label>Geboortedatum: <input type="dob" name="dob" /></label>
+        </p>
+
+        <label>Gender: <radio name="gender[]"></radio></label><br>
+        <input type="radio" name="man" /><label>Man </label><br>
+        <input type="radio" name="vrouw" /><label>Vrouw </label>
+
+        <p>
+            <label>Favoriete cuisine: <select name="cuisine[]">
+                    <option value="frans">Frans</option>
+                    <option value="italiaans">Italiaans</option>
+                    <option value="spaans">Spaans</option>
+                    <option value="arabisch">Arabisch</option>
+                </select></label>
+        </p>
+        <p>
+            <label>Favoriete kleur schort: <input type="color" name="chosecolorr" value="#001166"></label>
+        </p>
+        <p>
+            <label>Biografie: <textarea name="biography"></textarea></label>
+        </p>
+
+        <label> Upload je laatste recept:<input type="file" name="filename"></label>
+        <p>
+            <label> URL naar je recepten website: <input type="url" name="homepage"></label>
+        </p>
+        <p>
+            <button type="reset">Reset</button>
+            <button type="submit">Send</button>
+        </p>
+    </form>
+
+    <nav>
+        <a href="index.html"> Terug naar Index</a>
+    </nav>
+</body>
+
+</html>
