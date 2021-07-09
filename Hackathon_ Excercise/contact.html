@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Veganlicious Food</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <h1>Veganlicious Food</h1>
+    <h2>The path to a healthier you</h2>
+    <br><br><br><br>
+    <nav>
+        <ul>
+            <li><a href="index.html" target="_blank">Home</a></li>
+            <li><a href="about_me.html" target="_blank">About me</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="flex-container">
+        <div class="flex-item-left">
+            <article>
+                <img src="https://th.bing.com/th/id/OIP.AW4RMLZjuGDpgcTq0yRt9QHaKr?w=144&h=207&c=7&o=5&pid=1.7"
+                    width="20%">
+                <h1> Vegan Meal Plan</h1>
+                <form name="contact" method="POST" data-netlify="true">
+                    <fieldset>
+                        <legend> Which plan would you like to receive?</legend>
+                        <input type="radio" id="LowCal" name="Lose Weight" value="Lose Weight">
+                        <label for="Lose Weight">To Lose Weight</label><br>
+                        <input type="radio" id="NormalCal" name="Keep Weight" value="Keep Weight">
+                        <label for="Keep Weight">To Keep Weight</label><br>
+                        <input type="radio" id="ExtraCal" name="Gain Weight" value="Gain Weight">
+                        <label for="Gain Weight">To Gain Weight</label><br><br>
+                        <label for="allegry">Allergies:</label><br>
+                        <select id="allergy">
+                            <option value="no allergy">No Allergy</option>
+                            <option value="glutten">Glutten</option>
+                            <option value="other">Other</option>
+                        </select> <br>
+                        <label for="text">Other:</label>
+                        <input type="text" id="other" name="other"><br><br>
+                        <label for="text">Name:</label>
+                        <input type="text" id="name" name="name"><br>
+                        <label for="text">E-mail:</label>
+                        <input type="text" id="email" name="email"><br>
+                        <br>
+                        <button type="reset">Reset</button>
+                        <button type="submit">Send</button>
+                        <br><br>
+                    </fieldset>
+                </form>
+                <p> You will receive your meal plan within 24 hours.</p>
+            </article>
+        </div>
+
+    </div>
+    <footer>
+        <div class="flex-container">
+            <div class="footer-item-right">
+                <p>
+                    Veganlicious Food<br>
+                    P.O. Box 123<br>
+                    1234 XN Veganville<br>
+                    The Netherlands
+                </p>
+            </div>
+            <div class="footer-item-middle">
+                <p>Links:<br>
+                    <a href="https://thegreenloot.com/vegan-weight-loss-dinner-recipes/">Vegan Weight Loss</a><br>
+                    <a href="https://plantbasedgabriel.com//">Simple Healthy Recipes</a><br>
+                    <a href="https://www.bosh.tv//">Bosh Vegan Recipes</a><br>
+                </p>
+            </div>
+            <div class="footer-item-right">
+                <br>
+                <p>(C) Nicole Heijveldt 2021</p>
+                <br>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
